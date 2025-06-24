@@ -406,7 +406,8 @@ class AppTheme {
         borderRadius: BorderRadius.circular(16.0),
         side: const BorderSide(color: outlineLight),
       ),
-    ), dialogTheme: DialogThemeData(backgroundColor: dialogLight),
+    ),
+    dialogTheme: DialogThemeData(backgroundColor: dialogLight),
   );
 
   /// Dark theme optimized for cricket community management
@@ -748,7 +749,8 @@ class AppTheme {
         borderRadius: BorderRadius.circular(16.0),
         side: const BorderSide(color: outlineDark),
       ),
-    ), dialogTheme: DialogThemeData(backgroundColor: dialogDark),
+    ),
+    dialogTheme: DialogThemeData(backgroundColor: dialogDark),
   );
 
   /// Helper method to build cricket-optimized text theme
